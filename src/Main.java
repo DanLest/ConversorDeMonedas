@@ -15,7 +15,7 @@ public class Main {
                 4) Real brasileño =>> Dólar
                 5) Dólar =>> Peso colombiano
                 6) Peso colombiano =>> Dólar
-                9) Salir
+                7) Salir
                  Elija una opción válida:
                 ***********************************************
                 """;
@@ -85,7 +85,7 @@ public class Main {
                         resultado = cantidad * moneda.conversion_rate();
                         System.out.println("El valor de " + cantidad + " [COP] equivale a " + resultado + " [USD]");
 
-                    case 9:
+                    case 7:
                         System.out.println("Finalizando el programa. ¡Gracias por usarlo!");
                         break;
                     default:
